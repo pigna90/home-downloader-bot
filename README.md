@@ -1,6 +1,6 @@
 # Home Downloader Telegram Bot
 Telegram Bot devised to download media contents from the web, based on youtube-dl.  
-[The whole story behind this project]().
+[The whole story behind this project](https://alerom90.medium.com/how-i-made-my-girlfriend-happy-with-a-simple-telegram-bot-2be8e4b150e7?source=friends_link&sk=742b5296b19b0eae0e7f8827dbc747f4).
 
 ## Requirements 
 - `virtualenv` or `conda`
