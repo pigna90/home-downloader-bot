@@ -47,6 +47,10 @@ cd ./home-downloader-bot
 chmod +x run_home_downloader.sh
 ./run_home_downloader.sh
 ```
+## Usage  
+- Start a new conversation with the Bot
+- Send the link of the video to download
+- The video will be downloaded into the shared folder
 ## Development
 ### Deploy to a remote machine
 Here is how to deploy the code to a remote machine (e.g. Raspberry Pi) trough SSH:
