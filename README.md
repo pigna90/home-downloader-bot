@@ -1,11 +1,13 @@
 # Home Downloader Telegram Bot
-Telegram Bot devised to download media contents from the web, based on youtube-dl.  
+Telegram Bot based on youtube-dl devised to download media contents from the web.  
 [The whole story behind this project](https://alerom90.medium.com/how-i-made-my-girlfriend-happy-with-a-simple-telegram-bot-2be8e4b150e7?source=friends_link&sk=742b5296b19b0eae0e7f8827dbc747f4).
 
 ## Requirements 
 - `virtualenv` or `conda`
 - `python3.8`
 - `git`
+- `samba`
+- [Telegram Bot Token](https://core.telegram.org/bots)
 ## Installation  
 Install `youtube-dl` (on Arch/Arch Arm):
 ```shell script
@@ -13,7 +15,7 @@ sudo pacman -S youtube-dl
 ```
 Clone the project:
 ```shell script
-git clone
+git clone https://github.com/pigna90/home-downloader-bot.git
 ```
 Set up the virtual environment:
 ```shell script
@@ -47,7 +49,7 @@ chmod +x run_home_downloader.sh
 ```
 ## Development
 ### Deploy to a remote machine
-Here is how to deploy the code to a remote machine (eg. Raspberry PI) trough SSH:
+Here is how to deploy the code to a remote machine (e.g. Raspberry Pi) trough SSH:
 ```shell script
 rpi_host=""
 rpi_project_dir=""
