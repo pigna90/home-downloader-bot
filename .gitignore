@@ -2,3 +2,4 @@ scripts/
 config.json
 .idea
 __pycache__/
+menu.py
